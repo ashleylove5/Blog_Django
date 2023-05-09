@@ -1,0 +1,99 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrint-to-fit= no">
+    <title>Ashley's Blog</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <div class = "container">
+    <div class = "jumbotron" " class="img-thumbnail" >
+     <img src="hhh.png" alt="">
+      <marquee direction="right" style="font-size: larger; font-style: italic; color: red;";>
+        WELCOME TO ASHLEY'S BLOG</marquee>
+        <h1>This is the right place to be </h1>
+    </div>
+  </div>
+  <hr>
+ 
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="location.href='Admin.html'">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="location.href='Blog.html'">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">TUTORIALS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="location.href='contact us.html'">CONTACT US </a>
+            <pre class="tab"></pre>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li> <a href="#" class="fa fa-facebook"></a></li>
+          <li> <a href="#" class="fa fa-google"></a></li>
+          <li> <a href="#" class="fa fa-instagram"></a></li>
+          <li> <a href="#" class="fa fa-twitter"></a></li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <hr>
+ 
+    <br>
+    <div class="contact-form-container">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+<br>
+ 
+<hr>
+    <footer>
+      <p style="text-align: center;">Copyright &copy; Copyright 2021-2023 by Maluleke Coop. All Rights Reserved.
+        Blog is Powered by TUTWILMS.</p>
+    </footer>
+
+
+    <hr>
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+    <script src="./js/jquery.js" ></script>
+    <script src="./js/popper.js" ></script>
+    <script src="./js/bootstrap.min.js" ></script>
+  </body>
+</html>
